@@ -1,0 +1,29 @@
+{
+  "name": "cmd_search_tool",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/frankyz21/cmd_search_tool.git",
+  "author": "Haseeb Ahmad <engg.haseeb@gmail.com>",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chai": "^4.3.10",
+    "express": "^4.18.2",
+    "json": "^11.2.0",
+    "mocha": "^9.1.3",
+    "supertest": "^6.1.6",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "chai-http": "^4.4.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "nodemon": "^2.0.12"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "scripts": {
+    "test": "mocha test/**/*.js"
+  },
+  "license": "MIT"
+}
